@@ -98,8 +98,8 @@
       <div class="container nav-container">
         <div class="responsive-mobile-menu">
           <div class="logo-wrapper">
-            <a href="index.html" class="logo">
-              {{-- <h3>logo here</h3> --}}
+            <a href="{{ route('home') }}" class="logo">
+              <img src="assets/img/logo.svg" alt="">
             </a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bizcoxx_main_menu"
@@ -155,9 +155,13 @@
             <div class="col-lg-4 col-md-6">
               <div class="footer-widget widget">
                 <div class="about_us_widget wow animate__animated animate__fadeInUp">
-                  <a href="index.html" class="footer-logo"> <img src="assets/img/footer-logo.png" alt="footer logo"></a>
-                  <!-- <p>President represented Delaware for 36 years in the U.S. Senate before becoming the 47th Vice
-                    President of the United States.</p> -->
+                  <div class="logo-wrapper">
+                    <a href="{{ route('home') }}" class="logo">
+                      <img src="assets/img/logo.svg" alt="">
+                    </a>
+                  </div>
+                  {{-- <a href="index.html" class="footer-logo"> <img src="assets/img/logo.svg" alt="footer logo"></a> --}}
+                  
                     <div class="social-links">
                       <a href="#"><i class="fab fa-facebook-f"></i></a>
                       <a href="#"><i class="fab fa-twitter"></i></a>
@@ -304,18 +308,7 @@
     </script>
       
   @endif
-  {{-- @if(Session::has('success'))
-  <script type="text/javascript">
-     swal({
-         title:'Registered',
-         text:"{{Session::get('success')}}",
-         timer:10000,
-         type:'success'
-     }).then((value) => {
-       //location.reload();
-     }).catch(swal.noop);
- </script>
- @endif --}}
+  
 
  @if(Session::has('fail'))
  <script type="text/javascript">

@@ -15,15 +15,6 @@
           <div>
             <h1>Organization Picture Here</h1>
           </div>
-            <!-- <div class="administration-single-items wow animate__animated animate__fadeInLeft">
-                <div class="administrative-bg" style="background-image: url(assets/img/business-people.png);">
-                    <div class="btn-wrapper administration">
-                        <a class="video-popup mfp-iframe" href="https://www.youtube.com/watch?v=-ZwQtICNbRc">
-                            <i class="fas fa-play"></i>
-                        </a>
-                    </div>
-                </div>
-            </div> -->
         </div>
         <div class="col-lg-6 col-md-10 col-sm-12">
             <div class="administration-single-items style-01">
@@ -64,7 +55,6 @@
         <div class="col-lg-6 col-md-10">
             <div class="section-title">
                 <h2 class="title wow animate__animated animate__fadeInUp">ASO Vision, Mission and Future Plan</h2>
-                <!-- <p class="description wow animate__animated animate__fadeInUp">Every pleasures is to welcomed pain avoided owing to the duty the obligations of business it will frequently.</p> -->
             </div>
         </div>
     </div>
