@@ -136,7 +136,7 @@
 <!-- Office Address Section Start here -->
 
 <!-- Contact Page Form Section Start Here -->
-<div class="contact-page-form-section contact-form-bg" style="background-image: url(assets/img/contact-bg-02.png);">
+{{-- <div class="contact-page-form-section contact-form-bg" style="background-image: url(assets/img/contact-bg-02.png);">
   <div class="container">
       <div class="row">
           <div class="col-lg-12">
@@ -211,13 +211,13 @@
           </div>
       </div>
   </div>
-</div>
+</div> --}}
 <!-- Contact Page Form Section End Here -->
 
 <!-- Map Section Start Here -->
-<div class="map-section">
+{{-- <div class="map-section">
   
-</div>
+</div> --}}
 <!-- Map Section Start Here -->
 
 @endsection

@@ -100,7 +100,6 @@
           <div class="logo-wrapper">
             <a href="index.html" class="logo">
               {{-- <h3>logo here</h3> --}}
-              {{-- <img src="assets/img/logo2.jpeg" alt="" /> --}}
             </a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bizcoxx_main_menu"

@@ -4153,6 +4153,7 @@ ul {
 .accoridion-section.style-02 {
   padding: 246px 0px 0 0px;
   margin-top: 0;
+  margin-bottom: 50px;
 }
 .accoridion-section .section-title .title {
   font-size: 40px;
@@ -7520,7 +7521,7 @@ input[type=checkbox] {
     padding: 0px;
     text-align: center;
     width: 100%;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px) saturate(180%);
     height: 100px;
   
     /* Pay special attention here! */
@@ -7698,11 +7699,17 @@ input[type=checkbox] {
  /*👉 added👈*/
  /*👉color: #04072e;👈*/
 }
+/* added */
 .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav.political li a:active {
   /*👉color: #fff;👈*/
  /*👉 added👈*/
  color: #DD131A;
 }
+.active{
+  color: var(--main-color-one);
+  font-size: 20px;
+}
+/* added */
 .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav li {
   position: relative;
 }

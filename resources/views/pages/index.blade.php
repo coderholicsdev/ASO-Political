@@ -690,7 +690,7 @@
                     <span class="icon-star"></span>
                     <span class="icon-star"></span>
                   </div>
-                  <p>Political FAQ</p>
+                  <p>FAQ</p>
                   <div class="icon">
                     <span class="icon-star"></span>
                     <span class="icon-star"></span>
@@ -758,7 +758,7 @@
 
 
 <!-- Join our party section start -->
-<div class="join-party-section-area style-02 join-bg home-contact">
+{{-- <div class="join-party-section-area style-02 join-bg home-contact">
   <!-- <img src="assets/img/Mask%20Group%207.png" alt="shape" class="shape-01">
   <img src="assets/img/Mask%20Group%208.png" alt="shape" class="shape-02"> -->
   <div class="container">
@@ -842,6 +842,6 @@
       </div>
     </div>
   </div>
-</div>
+</div> --}}
 
 @endsection
