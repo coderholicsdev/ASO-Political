@@ -7664,9 +7664,23 @@ input[type=checkbox] {
   border-radius: 0;
   padding: 0 15px;
 }
-.navbar-area.nav-style-02 .nav-container .logo-wrapper {
-  max-width: 150px;
+.navbar-area.nav-style-02 .nav-container .logo-wrapper a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 187px;
+  max-height: 85px;
 }
+
+.about_us_widget .logo-wrapper a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 187px;
+  max-height: 85px;
+  margin-bottom: 20px;
+}
+/*👉 .footer-logo👈*/
 .navbar-area.nav-style-02 .nav-container .nav-right-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8046,6 +8060,14 @@ input[type=checkbox] {
   .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav {
     background-color: #000565;
     padding: 0 20px;
+  }
+
+  .navbar-area.nav-style-02 .nav-container .logo-wrapper a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 187px;
+    max-height: 35px;
   }
   
   

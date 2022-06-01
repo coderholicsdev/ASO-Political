@@ -143,10 +143,6 @@
             <p class="description wow animate__animated animate__fadeInUp">
               Professor Yemi Osinbajo is the 14th and current Vice President of Nigeria and also Senior Advocate of Nigeria(SAN). He was once a Professor of Law at the University of Lagos who aslo served as Attorney General Of Lagos State. 
             </p>
-            <!-- <div class="feedback wow animate__animated animate__fadeInUp">
-              <span>99.8%</span>
-              <p>Positive Feedback From Peoples</p>
-            </div> -->
           </div>
           <div class="  btn-wrapper margin-top-35  wow animate__animated animate__fadeInUp">
             <a href="{{ route('pyo') }}" class="boxed-btn btn-sanatory style-02"><i class="fas fa-arrow-right"></i>Read More</a>
@@ -172,18 +168,7 @@
               <i class="fas fa-play"></i>
             </a>
           </div>
-          <!-- <div class="row align-items-center">
-            <div class="col-md-12"> -->
-              <!-- <iframe height="100%" width="100%" src="" frameborder="0">
-                <a class="video-play style-01 style-05 mfp-iframe" href="https://www.youtube.com/watch?v=k6HrMYUNkp4"></a>
-              </iframe> -->
-               <!-- <div class="party-single-thumb-video">
-                <a class="video-play style-01 style-05 mfp-iframe" href="https://www.youtube.com/watch?v=k6HrMYUNkp4">
-                  <i class="fas fa-play"></i>
-                </a>
-              </div> -->
-            <!-- </div>
-          </div> -->
+          
           
         </div>
       </div>
@@ -202,14 +187,7 @@
             <p class="description wow animate__animated animate__fadeInUp">
              In the early hours of April 11th 2022, Vice President Yemi Osinbajo declared his intention to run for the presidential race in 2023.  
             </p>
-            <!-- <div class="feedback wow animate__animated animate__fadeInUp">
-              <span>99.8%</span>
-              <p>Positive Feedback From Peoples</p>
-            </div> -->
           </div>
-          <!-- <div class="  btn-wrapper margin-top-35  wow animate__animated animate__fadeInUp">
-            <a href="about.html" class="boxed-btn btn-sanatory style-02"><i class="fas fa-arrow-right"></i>Read More</a>
-          </div> -->
         </div>
       </div>
     </div>
@@ -616,23 +594,7 @@
           </div>
         </div>
       </div>
-      {{-- <div class="col-lg-4 col-md-6">
-        <div class="media-item wow animate__animated animate__fadeInUp">
-          <div class="media-thumb">
-            <img src="https://i3.ytimg.com/vi/t9Jh5BD3gKA/maxresdefault.jpg" alt="The New Tribe Supports Prof. Osinbajo Speech">
-            <div class="media-thumb-video">
-              <a class="video-play style-01 style-05 mfp-iframe" href="https://www.youtube.com/watch?v=t9Jh5BD3gKA">
-                <i class="fas fa-play"></i>
-              </a>
-            </div>
-          </div>
-          <div class="media-content">
-            <span class="category">Recent</span>
-            <h3 class="title">The New Tribe Declares Support for Vice President Yemi Osinbajo</h3>
-            <!-- <span class="date"><i class="fas fa-calendar-alt"></i> JAN 14, 2022</span> -->
-          </div>
-        </div>
-      </div> --}}
+      
       <div class="col-lg-4 col-md-6">
         <div class="media-item wow animate__animated animate__fadeInUp">
           <div class="media-thumb">
@@ -651,25 +613,6 @@
         </div>
       </div>
 
-      <!-- <div class="col-lg-4 col-md-6">
-        <div class="media-item wow animate__animated animate__fadeInUp">
-          <div class="media-thumb">
-            <img src="assets/img/portrait.png" alt="portrait">
-            <div class="media-thumb-video">
-              <a class="video-play style-01 style-05 mfp-iframe" href="https://www.youtube.com/watch?v=-ZwQtICNbRc">
-                <i class="fas fa-play"></i>
-              </a>
-            </div>
-          </div>
-          <div class="media-content">
-            <span class="category">technology</span>
-            <h3 class="title">Thursday’s analyst upgrades
-              and downgrade</h3>
-            <span class="date"><i class="fas fa-calendar-alt"></i> JAN 14, 2022</span>
-          </div>
-        </div>
-      </div>
-      -->
       
     </div>
   </div>
@@ -757,91 +700,6 @@
 <!-- faq section end here -->
 
 
-<!-- Join our party section start -->
-{{-- <div class="join-party-section-area style-02 join-bg home-contact">
-  <!-- <img src="assets/img/Mask%20Group%207.png" alt="shape" class="shape-01">
-  <img src="assets/img/Mask%20Group%208.png" alt="shape" class="shape-02"> -->
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-6">
-        <div class="contact-page-wrapper style-01 style-05 wow animate__animated animate__fadeInLeft">
-          <div class="contact-form contact-bg bg-white">
-            <!-- <div class="content desktop-center">
-              <img src="assets/img/Path%2035.png" class="title-shape" alt="">
-              <h6 class="title">Freedom  Matters</h6>
-            </div> -->
-            <form action="" class="contact-page-form" method="post">
-                <div class="row">
-                    <div class="col-md-6 col-sm-6">
-                        <div class="form-group">
-                            <input type="text" name="fname" placeholder="First Name" class="form-control" required="" aria-required="true">
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                      <div class="form-group">
-                          <input type="text" name="lname" placeholder="Last Name" class="form-control" required="" aria-required="true">
-                      </div>
-                  </div>
-                    <div class="col-md-6 col-sm-6">
-                        <div class="form-group">
-                            <input type="email" name="lname" placeholder="Email" class="form-control" required="" aria-required="true">
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                        <div class="form-group">
-                            <input type="tel" name="phone" placeholder="Mobile No" class="form-control" required="" aria-required="true">
-                        </div>
-                    </div>
 
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <input type="text" name="Subject" placeholder="Subject" class="form-control" required="" aria-required="true">
-                      </div>
-                  </div>
-                    
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <textarea name="msg" id="msg" placeholder="Message"></textarea>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="btn-wrapper desktop-center">
-                        <a href="#" class="boxed-btn political-btn style-01">Submit<i class="icon-paper-plan"></i></a>
-                      </div>
-                    </div>
-                </div>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="join-single-item">
-          <div class="content">
-            <div class="subtitle wow animate__animated animate__fadeInUp">
-              <p>Contact Us</p>
-              <div class="icon">
-                <i class="icon-star"></i>
-                <i class="icon-star"></i>
-                <i class="icon-star"></i>
-              </div>
-            </div>
-            <h4 class="title wow animate__animated animate__fadeInUp">Reach Out To Us</h4>
-            <p class="description wow animate__animated animate__fadeInUp">
-              We would love to hear from you..
-            </p>
-            <!-- <p class="description style-02 wow animate__animated animate__fadeInUp">How all this mistaken idea of denouncing pleasure and praising pain was born & we will give you a complete account of the system expound the actual teaching the great explorer.</p> -->
-            <!-- <div class="join-widget wow animate__animated animate__fadeInUp">
-              <p>Successfully Providing the Best Solution
-                from 20 years</p>
-              <div class="icon">
-                <i class="icon-quotes"></i>
-              </div>
-            </div> -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> --}}
 
 @endsection
