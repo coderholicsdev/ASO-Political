@@ -10,7 +10,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
   <title>Anambra State for Osinbajo Organization</title>
   <!-- favicon -->
-  <link rel="icon" href="assets/img/favicon.png" sizes="20x20" type="image/png"/>
+  <link rel="icon" href="assets/img/fav.png" sizes="37x37" type="image/png"/>
   <!-- animate -->
   <link rel="stylesheet" href="assets/css/animate.css"/>
   <!-- bootstrap -->
