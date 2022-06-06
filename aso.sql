@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="js/vendor/codemirror/lib/codemirror.css?v=5.1.3">
     <link rel="stylesheet" type="text/css" href="js/vendor/codemirror/addon/hint/show-hint.css?v=5.1.3">
     <link rel="stylesheet" type="text/css" href="js/vendor/codemirror/addon/lint/lint.css?v=5.1.3">
-    <link rel="stylesheet" type="text/css" href="./themes/pmahomme/css/theme.css?v=5.1.3&nocache=3566351689ltr&server=1">
+    <link rel="stylesheet" type="text/css" href="./themes/pmahomme/css/theme.css?v=5.1.3&nocache=789495384ltr&server=1">
     <link rel="stylesheet" type="text/css" href="./themes/pmahomme/css/printview.css?v=5.1.3" media="print" id="printcss">
     <title>localhost / 127.0.0.1 | phpMyAdmin 5.1.3</title>
     <script data-cfasync="false" type="text/javascript" src="js/vendor/jquery/jquery.min.js?v=5.1.3"></script>
@@ -260,7 +260,7 @@ $(function() {
       </div>
       <div id="pma_navigation_tree" class="list_container synced highlight autoexpand">
 
-  <div class="pma_quick_warp"><div class="drop_list"><button title="Recent tables" class="drop_button btn">Recent</button><ul id="pma_recent_list"><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=aso&table=failed_jobs">`aso`.`failed_jobs`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=aso&table=password_resets">`aso`.`password_resets`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=aso&table=personal_access_tokens">`aso`.`personal_access_tokens`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=aso&table=migrations">`aso`.`migrations`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=aso&table=users">`aso`.`users`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=churchesapi&table=churches">`churchesapi`.`churches`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=todo&table=users">`todo`.`users`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=regapi&table=hospitals">`regapi`.`hospitals`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=regapi&table=failed_jobs">`regapi`.`failed_jobs`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=regapi&table=migrations">`regapi`.`migrations`</a></li></ul></div><div class="drop_list"><button title="Favorite tables" class="drop_button btn">Favorites</button><ul id="pma_favorite_list"><li class="warp_link">There are no favorite tables.</li></ul></div><div class="clearfloat"></div></div>
+  <div class="pma_quick_warp"><div class="drop_list"><button title="Recent tables" class="drop_button btn">Recent</button><ul id="pma_recent_list"><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=aso&table=users">`aso`.`users`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=aso&table=failed_jobs">`aso`.`failed_jobs`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=aso&table=password_resets">`aso`.`password_resets`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=aso&table=personal_access_tokens">`aso`.`personal_access_tokens`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=aso&table=migrations">`aso`.`migrations`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=churchesapi&table=churches">`churchesapi`.`churches`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=todo&table=users">`todo`.`users`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=regapi&table=hospitals">`regapi`.`hospitals`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=regapi&table=failed_jobs">`regapi`.`failed_jobs`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=regapi&table=migrations">`regapi`.`migrations`</a></li></ul></div><div class="drop_list"><button title="Favorite tables" class="drop_button btn">Favorites</button><ul id="pma_favorite_list"><li class="warp_link">There are no favorite tables.</li></ul></div><div class="clearfloat"></div></div>
 
 <div class="clearfloat"></div>
 
@@ -562,82 +562,6 @@ $.extend(defaultValues, {
                         Press Enter to execute query                    </span>
                 </div>
                                                             <div class="message history collapsed hide select"
-                            targetdb="aso" targettable="users">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Collapse
-                    </span>
-                            <span class="action expand">
-            Expand
-                    </span>
-                            <span class="action requery">
-            Requery
-                    </span>
-                            <span class="action edit">
-            Edit
-                    </span>
-                            <span class="action explain">
-            Explain
-                    </span>
-                            <span class="action profiling">
-            Profiling
-                    </span>
-                            <span class="action bookmark">
-            Bookmark
-                    </span>
-                            <span class="text failed">
-            Query failed
-                    </span>
-                            <span class="text targetdb">
-            Database
-                            : <span>aso</span>
-                    </span>
-                            <span class="text query_time">
-            Queried time
-                            : <span>During current session</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `users`</span>
-                        </div>
-                                            <div class="message history collapsed hide"
-                            targetdb="aso" targettable="users">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Collapse
-                    </span>
-                            <span class="action expand">
-            Expand
-                    </span>
-                            <span class="action requery">
-            Requery
-                    </span>
-                            <span class="action edit">
-            Edit
-                    </span>
-                            <span class="action explain">
-            Explain
-                    </span>
-                            <span class="action profiling">
-            Profiling
-                    </span>
-                            <span class="action bookmark">
-            Bookmark
-                    </span>
-                            <span class="text failed">
-            Query failed
-                    </span>
-                            <span class="text targetdb">
-            Database
-                            : <span>aso</span>
-                    </span>
-                            <span class="text query_time">
-            Queried time
-                            : <span>During current session</span>
-                    </span>
-            </div>
-                            <span class="query">DELETE FROM `users` WHERE `users`.`id` = 20</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
                             targetdb="aso" targettable="users">
                             <div class="action_content">
                     <span class="action collapse">
@@ -1510,6 +1434,82 @@ $.extend(defaultValues, {
                     </span>
             </div>
                             <span class="query">SELECT * FROM `failed_jobs`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="aso" targettable="users">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="action bookmark">
+            Bookmark
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                            : <span>aso</span>
+                    </span>
+                            <span class="text query_time">
+            Queried time
+                            : <span>During current session</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `users`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="aso" targettable="users">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="action bookmark">
+            Bookmark
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                            : <span>aso</span>
+                    </span>
+                            <span class="text query_time">
+            Queried time
+                            : <span>During current session</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `users`</span>
                         </div>
                                                 </div><!-- console_message_container -->
             <div class="query_input">

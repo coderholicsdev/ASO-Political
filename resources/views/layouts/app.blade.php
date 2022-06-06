@@ -157,7 +157,7 @@
                 <div class="about_us_widget wow animate__animated animate__fadeInUp">
                   <div class="logo-wrapper">
                     <a href="{{ route('home') }}" class="logo">
-                      <img src="assets/img/logo.svg" alt="">
+                      <img src="assets/img/logowhite.svg" alt="">
                     </a>
                   </div>
                   {{-- <a href="index.html" class="footer-logo"> <img src="assets/img/logo.svg" alt="footer logo"></a> --}}
